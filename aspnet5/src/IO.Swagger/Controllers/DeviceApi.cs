@@ -44,7 +44,7 @@ namespace IO.Swagger.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <remarks>returns all registered devices</remarks>
+        /// <remarks>Returns all registered devices   # Usage  Use this operation to retrieve the list of all devices in the &lt;a href&#x3D;\&quot;http://en.wikipedia.org/wiki/REST_API\&quot; target&#x3D;\&quot;_blank\&quot;&gt;house&lt;/a&gt;.  ## Endpoints   My API is provided via the following endpoints.   | Tenant                 | Base URL for REST Endpoints    |  |- -- -- -- -- -- -- -- -- -- -- -- -|- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -|  | Production             | https://api.mydomain.com/v1    |  | API Sandbox            | https://sandbox.mydomain.com/v1|      </remarks>
         /// <param name="skip">number of records to skip</param>
         /// <param name="limit">max number of records to return</param>
         /// <response code="200">All the devices</response>
